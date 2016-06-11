@@ -11,9 +11,9 @@ Show off your creative side with this powerful new extension for the free Tailor
 
 == Description ==
 
-This [extension](http://gettailor.com/extensions) provides portfolio functionality to the [Tailor](https://wordpress.org/plugins/tailor) frontend page builder.  You can now manage your projects as a separate post type and present them as part of your custom layouts using the powerful new Projects element.
+This extension provides portfolio functionality to the [Tailor](https://wordpress.org/plugins/tailor) frontend page builder.  You can now manage your projects as a separate post type and present them as part of your custom layouts using the powerful new Projects element.
 
-We're keen to get your feedback so that we can make Tailor (and this extension) better!  Say hi at [@tailorwp](https://twitter.com/tailorwp) or [@andrewjworsfold](https://twitter.com/andrewjworsfold)
+We're keen to get your feedback so that we can make Tailor (and this extension) better!  Say hi at [@tailorwp](https://twitter.com/tailorwp) or [@andrewjworsfold](https://twitter.com/andrewjworsfold) and visit the [plugin website](https://ww.gettailor.com) for more information.
 
 == Installation ==
 
