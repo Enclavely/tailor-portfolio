@@ -1,0 +1,48 @@
+.tailor-ui .tailor-projects {
+  margin-bottom: 1.5em;
+  border-style: solid;
+  border-color: #efefef; }
+  .tailor-ui .tailor-projects .entry {
+    margin-bottom: 1.5em; }
+  .tailor-ui .tailor-projects .entry__title {
+    margin: 1em 0 0.5em; }
+    .tailor-ui .tailor-projects .entry__title a {
+      color: inherit; }
+  .tailor-ui .tailor-projects .entry__meta {
+    display: block;
+    font-size: 0.875em; }
+    .tailor-ui .tailor-projects .entry__meta span {
+      position: relative;
+      display: inline-block; }
+      .tailor-ui .tailor-projects .entry__meta span:not(:last-child) {
+        padding-right: 8px;
+        margin-right: 8px; }
+        .tailor-ui .tailor-projects .entry__meta span:not(:last-child):after {
+          position: absolute;
+          right: 0;
+          content: '|'; }
+  .tailor-ui .tailor-projects .entry__thumbnail {
+    overflow: hidden; }
+    .tailor-ui .tailor-projects .entry__thumbnail a {
+      display: block; }
+    .tailor-ui .tailor-projects .entry__thumbnail img {
+      margin: 0; }
+  .tailor-ui .tailor-projects .entry__more {
+    display: inline-block;
+    margin-top: 0.25em; }
+.tailor-ui .tailor-grid--projects .tailor-grid {
+  display: block; }
+.tailor-ui .tailor-grid--projects .tailor-grid__item {
+  padding: 1em; }
+.tailor-ui .tailor-list--projects .entry:last-child {
+  margin-bottom: 0; }
+.tailor-ui .tailor-projects--boxed .entry {
+  border: 1px solid #efefef;
+  background-color: #fff;
+  overflow: hidden; }
+.tailor-ui .tailor-projects--boxed .entry__content {
+  padding-right: 2em;
+  padding-bottom: 2em;
+  padding-left: 2em; }
+
+/*# sourceMappingURL=style.css.map */

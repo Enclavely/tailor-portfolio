@@ -1,0 +1,9 @@
+$namespace : '';
+
+$base-line-height: 1.5 !default;
+$base-spacing-unit: $base-line-height !default;
+
+$background-color: #fdfdfd;
+$border-color: #efefef !default; //darken( $background-color, 5% ) !default;
+$border-radius: 2px !default;
+$box-shadow: 0 2px 6px rgba( 0, 0, 0, 0.1 ) !default;
