@@ -44,7 +44,7 @@ if ( ! class_exists( 'Portfolio_Post_Types' ) ) {
 			}
 
 			$permalinks = get_option( '_tailor_portfolio_permalinks' );
-			$project_permalink = empty( $permalinks['project_base'] ) ? _x( 'project', 'slug', tailor_portfolio()->textdomain() ) : $permalinks['project_base'];
+			$project_permalink = empty( $permalinks['project_base'] ) ? _x( 'project', 'slug', 'tailor-portfolio' ) : $permalinks['project_base'];
 
 			if ( $project_permalink ) {
 				$rewrite_args = array(
@@ -66,17 +66,17 @@ if ( ! class_exists( 'Portfolio_Post_Types' ) ) {
 						'labels'              => array(
 							'name'                      =>  _x( 'Projects', 'project general name' ),
 							'singular_name'             =>  _x( 'Project', 'project singular name' ),
-							'all_items'                 =>  __( 'All Projects', tailor_portfolio()->textdomain() ),
-							'add_new'                   =>  _x( 'Add New', 'project', tailor_portfolio()->textdomain() ),
-							'add_new_item'              =>  __( 'Add New Project', tailor_portfolio()->textdomain() ),
-							'edit_item'                 =>  __( 'Edit Project', tailor_portfolio()->textdomain() ),
-							'new_item'                  =>  __( 'Add New Project', tailor_portfolio()->textdomain() ),
-							'view_item'                 =>  __( 'View Project', tailor_portfolio()->textdomain() ),
-							'search_items'              =>  __( 'Search Projects', tailor_portfolio()->textdomain() ),
-							'not_found'                 =>  __( 'No projects found', tailor_portfolio()->textdomain() ),
-							'not_found_in_trash'        =>  __( 'No projects found in trash', tailor_portfolio()->textdomain() ),
+							'all_items'                 =>  __( 'All Projects', 'tailor-portfolio' ),
+							'add_new'                   =>  _x( 'Add New', 'project', 'tailor-portfolio' ),
+							'add_new_item'              =>  __( 'Add New Project', 'tailor-portfolio' ),
+							'edit_item'                 =>  __( 'Edit Project', 'tailor-portfolio' ),
+							'new_item'                  =>  __( 'Add New Project', 'tailor-portfolio' ),
+							'view_item'                 =>  __( 'View Project', 'tailor-portfolio' ),
+							'search_items'              =>  __( 'Search Projects', 'tailor-portfolio' ),
+							'not_found'                 =>  __( 'No projects found', 'tailor-portfolio' ),
+							'not_found_in_trash'        =>  __( 'No projects found in trash', 'tailor-portfolio' ),
 						),
-						'description'               =>  __( 'This is where you can add new projects to your portfolio.', tailor_portfolio()->textdomain() ),
+						'description'               =>  __( 'This is where you can add new projects to your portfolio.', 'tailor-portfolio' ),
 						'public'                    =>  true,
 						'show_ui'                   =>  true,
 						'map_meta_cap'              =>  true,
@@ -123,7 +123,7 @@ if ( ! class_exists( 'Portfolio_Post_Types' ) ) {
 					'query_var' 				=> 	true,
 					'capabilities'				=> 	array(),
 					'rewrite' 					=> 	array(
-						'slug'         				=> 	empty( $permalinks['portfolio_base'] ) ? _x( 'portfolio', 'slug', tailor_portfolio()->textdomain() ) : $permalinks['portfolio_base'],
+						'slug'         				=> 	empty( $permalinks['portfolio_base'] ) ? _x( 'portfolio', 'slug', 'tailor-portfolio' ) : $permalinks['portfolio_base'],
 						'with_front'   				=> 	false,
 						'hierarchical'              =>  true,
 					),
@@ -142,7 +142,7 @@ if ( ! class_exists( 'Portfolio_Post_Types' ) ) {
 						'query_var' 				=> 	true,
 						'capabilities'				=> 	array(),
 						'rewrite' 					=> 	array(
-							'slug'         				=> 	empty( $permalinks['skill_base'] ) ? _x( 'skill', 'slug', tailor_portfolio()->textdomain() ) : $permalinks['skill_base'],
+							'slug'         				=> 	empty( $permalinks['skill_base'] ) ? _x( 'skill', 'slug', 'tailor-portfolio' ) : $permalinks['skill_base'],
 							'with_front'   				=> 	false,
 						)
 					)
@@ -166,16 +166,16 @@ if ( ! class_exists( 'Portfolio_Post_Types' ) ) {
 			return apply_filters( 'tailor_taxonomy_labels', array(
 				'name' 							=> 	$pluralized_name,
 				'singular_name' 				=> 	$taxonomy_name,
-				'search_items' 					=>	sprintf( __( 'Search %s', tailor_portfolio()->textdomain() ), $pluralized_name ),
-				'all_items' 					=> 	sprintf( __( 'All %s', tailor_portfolio()->textdomain() ), $pluralized_name ),
-				'parent_item' 					=> 	sprintf( __( 'Parent %s', tailor_portfolio()->textdomain() ), $taxonomy_name ),
-				'parent_item_colon' 			=> 	sprintf( __( 'Parent %s:', tailor_portfolio()->textdomain() ), $taxonomy_name ),
-				'edit_item' 					=> 	sprintf( __( 'Edit %s', tailor_portfolio()->textdomain() ), $taxonomy_name ),
-				'update_item' 					=> 	sprintf( __( 'Update %s', tailor_portfolio()->textdomain() ), $taxonomy_name ),
-				'add_new_item' 					=> 	sprintf( __( 'Add New %s', tailor_portfolio()->textdomain() ), $taxonomy_name ),
-				'new_item_name' 				=> 	sprintf( __( 'New %s Name', tailor_portfolio()->textdomain() ), $taxonomy_name ),
-				'separate_items_with_commas'	=> 	sprintf( __( 'Separate %s with commas', tailor_portfolio()->textdomain() ), strtolower( $pluralized_name ) ),
-				'choose_from_most_used'			=> 	sprintf( __( 'Chose from the most recently used %s', tailor_portfolio()->textdomain() ), strtolower( $pluralized_name ) ),
+				'search_items' 					=>	sprintf( __( 'Search %s', 'tailor-portfolio' ), $pluralized_name ),
+				'all_items' 					=> 	sprintf( __( 'All %s', 'tailor-portfolio' ), $pluralized_name ),
+				'parent_item' 					=> 	sprintf( __( 'Parent %s', 'tailor-portfolio' ), $taxonomy_name ),
+				'parent_item_colon' 			=> 	sprintf( __( 'Parent %s:', 'tailor-portfolio' ), $taxonomy_name ),
+				'edit_item' 					=> 	sprintf( __( 'Edit %s', 'tailor-portfolio' ), $taxonomy_name ),
+				'update_item' 					=> 	sprintf( __( 'Update %s', 'tailor-portfolio' ), $taxonomy_name ),
+				'add_new_item' 					=> 	sprintf( __( 'Add New %s', 'tailor-portfolio' ), $taxonomy_name ),
+				'new_item_name' 				=> 	sprintf( __( 'New %s Name', 'tailor-portfolio' ), $taxonomy_name ),
+				'separate_items_with_commas'	=> 	sprintf( __( 'Separate %s with commas', 'tailor-portfolio' ), strtolower( $pluralized_name ) ),
+				'choose_from_most_used'			=> 	sprintf( __( 'Chose from the most recently used %s', 'tailor-portfolio' ), strtolower( $pluralized_name ) ),
 				'menu_name' 					=> 	$pluralized_name,
 			) );
 		}
@@ -224,13 +224,13 @@ if ( ! class_exists( 'Portfolio_Post_Types' ) ) {
 		static function project_columns() {
 			$columns = array(
 				'cb' 					=>	'<input type="checkbox"/>',
-				'title' 				=>	__( 'Title', tailor_portfolio()->textdomain() ),
-				'thumbnail'				=> 	__( 'Thumbnail', tailor_portfolio()->textdomain() ),
+				'title' 				=>	__( 'Title', 'tailor-portfolio' ),
+				'thumbnail'				=> 	__( 'Thumbnail', 'tailor-portfolio' ),
 			);
 			foreach ( (array) $taxonomies = get_object_taxonomies( 'project', 'objects' ) as $taxonomy ) {
 				$columns[ 'taxonomy-' . $taxonomy->name ] = ucfirst( self::pluralize_string( $taxonomy->name ) );
 			}
-			$columns['date'] = __( 'Date', tailor_portfolio()->textdomain() );
+			$columns['date'] = __( 'Date', 'tailor-portfolio' );
 			return $columns;
 		}
 
@@ -262,9 +262,9 @@ if ( ! class_exists( 'Portfolio_Post_Types' ) ) {
 		 * @static
 		 */
 		static function add_permalink_settings() {
-			add_settings_field( 'project_slug', __( 'Project base', tailor_portfolio()->textdomain() ), array( 'Portfolio_Post_Types', 'project_slug_field' ), 'permalink', 'optional' );
-			add_settings_field( 'portfolio_slug', __( 'Portfolio base', tailor_portfolio()->textdomain() ), array( 'Portfolio_Post_Types', 'portfolio_slug_field' ), 'permalink', 'optional' );
-			add_settings_field( 'skill_slug', __( 'Skill base', tailor_portfolio()->textdomain() ), array( 'Portfolio_Post_Types', 'skill_slug_field' ), 'permalink', 'optional' );
+			add_settings_field( 'project_slug', __( 'Project base', 'tailor-portfolio' ), array( 'Portfolio_Post_Types', 'project_slug_field' ), 'permalink', 'optional' );
+			add_settings_field( 'portfolio_slug', __( 'Portfolio base', 'tailor-portfolio' ), array( 'Portfolio_Post_Types', 'portfolio_slug_field' ), 'permalink', 'optional' );
+			add_settings_field( 'skill_slug', __( 'Skill base', 'tailor-portfolio' ), array( 'Portfolio_Post_Types', 'skill_slug_field' ), 'permalink', 'optional' );
 		}
 
 		/**
@@ -276,7 +276,7 @@ if ( ! class_exists( 'Portfolio_Post_Types' ) ) {
 		static function project_slug_field() {
 			$permalinks = get_option( '_tailor_portfolio_permalinks' );
 			$value = isset( $permalinks['project_base'] ) ? esc_attr( $permalinks['project_base'] ) : '';
-			printf( '<input name="project_slug" type="text" class="regular-text code" value="%s" placeholder="%s" >', $value,  _x( 'project', 'slug', tailor_portfolio()->textdomain() ) );
+			printf( '<input name="project_slug" type="text" class="regular-text code" value="%s" placeholder="%s" >', $value,  _x( 'project', 'slug', 'tailor-portfolio' ) );
 		}
 
 		/**
@@ -288,7 +288,7 @@ if ( ! class_exists( 'Portfolio_Post_Types' ) ) {
 		static function portfolio_slug_field() {
 			$permalinks = get_option( '_tailor_portfolio_permalinks' );
 			$value = isset( $permalinks['portfolio_base'] ) ? esc_attr( $permalinks['portfolio_base'] ) : '';
-			printf( '<input name="portfolio_slug" type="text" class="regular-text code" value="%s" placeholder="%s" >', $value,  _x( 'portfolio', 'slug', tailor_portfolio()->textdomain() ) );
+			printf( '<input name="portfolio_slug" type="text" class="regular-text code" value="%s" placeholder="%s" >', $value,  _x( 'portfolio', 'slug', 'tailor-portfolio' ) );
 		}
 
 		/**
@@ -300,7 +300,7 @@ if ( ! class_exists( 'Portfolio_Post_Types' ) ) {
 		static function skill_slug_field() {
 			$permalinks = get_option( '_tailor_portfolio_permalinks' );
 			$value = isset( $permalinks['skill_base'] ) ? esc_attr( $permalinks['skill_base'] ) : '';
-			printf( '<input name="skill_slug" type="text" class="regular-text code" value="%s" placeholder="%s" >', $value,  _x( 'skill', 'slug', tailor_portfolio()->textdomain() ) );
+			printf( '<input name="skill_slug" type="text" class="regular-text code" value="%s" placeholder="%s" >', $value,  _x( 'skill', 'slug', 'tailor-portfolio' ) );
 		}
 
 

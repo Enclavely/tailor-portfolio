@@ -30,22 +30,22 @@ if ( class_exists( 'Tailor_Element' ) && ! class_exists( 'Tailor_Projects_Elemen
 	    protected function register_controls() {
 
 		    $this->add_section( 'general', array(
-			    'title'                 =>  __( 'General', tailor_portfolio()->textdomain() ),
+			    'title'                 =>  __( 'General', 'tailor-portfolio' ),
 			    'priority'              =>  10,
 		    ) );
 
 		    $this->add_section( 'query', array(
-			    'title'                 =>  __( 'Query', tailor_portfolio()->textdomain() ),
+			    'title'                 =>  __( 'Query', 'tailor-portfolio' ),
 			    'priority'              =>  20,
 		    ) );
 
 		    $this->add_section( 'colors', array(
-			    'title'                 =>  __( 'Colors', tailor_portfolio()->textdomain() ),
+			    'title'                 =>  __( 'Colors', 'tailor-portfolio' ),
 			    'priority'              =>  30,
 		    ) );
 
 		    $this->add_section( 'attributes', array(
-			    'title'                 =>  __( 'Attributes', tailor_portfolio()->textdomain() ),
+			    'title'                 =>  __( 'Attributes', 'tailor-portfolio' ),
 			    'priority'              =>  40,
 		    ) );
 
@@ -72,17 +72,17 @@ if ( class_exists( 'Tailor_Element' ) && ! class_exists( 'Tailor_Projects_Elemen
 			    'style'                 =>  array(
 				    'control'               =>  array(
 					    'choices'               =>  array(
-						    'default'               =>  __( 'Default', tailor_portfolio()->textdomain() ),
-						    'boxed'                 =>  __( 'Boxed', tailor_portfolio()->textdomain() ),
+						    'default'               =>  __( 'Default', 'tailor-portfolio' ),
+						    'boxed'                 =>  __( 'Boxed', 'tailor-portfolio' ),
 					    ),
 				    ),
 			    ),
 			    'layout'                =>  array(
 				    'control'               =>  array(
 					    'choices'               =>  array(
-						    'list'                  =>  __( 'List', tailor_portfolio()->textdomain() ),
-						    'grid'                  =>  __( 'Grid', tailor_portfolio()->textdomain() ),
-						    'carousel'              =>  __( 'Carousel', tailor_portfolio()->textdomain() ),
+						    'list'                  =>  __( 'List', 'tailor-portfolio' ),
+						    'grid'                  =>  __( 'Grid', 'tailor-portfolio' ),
+						    'carousel'              =>  __( 'Carousel', 'tailor-portfolio' ),
 					    ),
 				    ),
 			    ),
@@ -163,11 +163,11 @@ if ( class_exists( 'Tailor_Element' ) && ! class_exists( 'Tailor_Projects_Elemen
 				    ),
 				    'control'               =>  array(
 					    'choices'               =>  array(
-						    'author'                =>  __( 'Author', tailor_portfolio()->textdomain() ),
-						    'portfolio'             =>  __( 'Portfolio', tailor_portfolio()->textdomain() ),
-						    'date'                  =>  __( 'Date', tailor_portfolio()->textdomain() ),
-						    'excerpt'               =>  __( 'Excerpt', tailor_portfolio()->textdomain() ),
-						    'thumbnail'             =>  __( 'Featured image', tailor_portfolio()->textdomain() ),
+						    'author'                =>  __( 'Author', 'tailor-portfolio' ),
+						    'portfolio'             =>  __( 'Portfolio', 'tailor-portfolio' ),
+						    'date'                  =>  __( 'Date', 'tailor-portfolio' ),
+						    'excerpt'               =>  __( 'Excerpt', 'tailor-portfolio' ),
+						    'thumbnail'             =>  __( 'Featured image', 'tailor-portfolio' ),
 					    ),
 				    ),
 			    ),
@@ -220,7 +220,7 @@ if ( class_exists( 'Tailor_Element' ) && ! class_exists( 'Tailor_Projects_Elemen
 			    'sanitize_callback'     =>  'tailor_sanitize_text',
 		    ) );
 		    $this->add_control( 'portfolio', array(
-			    'label'                 =>  __( 'Portfolio', tailor_portfolio()->textdomain() ),
+			    'label'                 =>  __( 'Portfolio', 'tailor-portfolio' ),
 			    'type'                  =>  'select-multi',
 			    'choices'               =>  tailor_get_terms( 'portfolio' ),
 			    'section'               =>  'query',
@@ -231,7 +231,7 @@ if ( class_exists( 'Tailor_Element' ) && ! class_exists( 'Tailor_Projects_Elemen
 			    'sanitize_callback'     =>  'tailor_sanitize_text',
 		    ) );
 		    $this->add_control( 'skill', array(
-			    'label'                 =>  __( 'Skill', tailor_portfolio()->textdomain() ),
+			    'label'                 =>  __( 'Skill', 'tailor-portfolio' ),
 			    'type'                  =>  'select-multi',
 			    'choices'               =>  tailor_get_terms( 'skill' ),
 			    'section'               =>  'query',
