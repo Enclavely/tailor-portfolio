@@ -1,7 +1,7 @@
-=== Portfolio extension for the Tailor frontend builder ===
-Tags: frontend, portfolio, projects, multimedia, extension, tailor, content, layout creator, responsive, page builder, visual composer, drag and drop builder, frontend editor
+=== Tailor Page Builder: Portfolio extension ===
+Tags: page, layout, builder, frontend, content, projects, portfolio, creative, page builder, drag and drop builder, home page builder, landing page builder, layout builder, frontend builder, frontend editor, responsive, visual composer, beaver builder
 Requires at least: 4.3
-Tested up to: 4.4
+Tested up to: 4.5.3
 Stable tag: 1.0.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl.html
@@ -48,7 +48,7 @@ If you like the plugin, you can help by [rating it](https://wordpress.org/suppor
 
 == Screenshots ==
 
-1. **Elements panel** - The new Projects element will appear in the Elements list once the extension is successfully installed.
+1. **Projects element** - Display your creative portfolio with the new highly customizable Projects element.  Projects are a new custom post type added by the extension.
 
 == Frequently Asked Questions ==
 
