@@ -1,0 +1,10 @@
+
+.list {
+
+	.element--projects {
+
+		&::before {
+			content: "\f161";
+		}
+	}
+}

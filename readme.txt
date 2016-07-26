@@ -2,7 +2,7 @@
 Tags: page, layout, builder, frontend, content, projects, portfolio, creative, page builder, drag and drop builder, home page builder, landing page builder, layout builder, frontend builder, frontend editor, responsive, visual composer, beaver builder
 Requires at least: 4.3
 Tested up to: 4.5.3
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl.html
 Contributors: andrew.worsfold
@@ -62,8 +62,12 @@ Yes, however, users should be directed to the WordPress plugin repository to ins
 
 == Changelog ==
 
+= 1.0.2 =
+* Added: language localization file.
+* Changed: custom icon for Projects element.
+
 = 1.0.1 =
-* Replaced text domain function with a simple string.
+* Changed: text domain function with a simple string.
 
 = 1.0.0 =
 * Initial release.

@@ -1,0 +1,232 @@
+# Copyright (C) 2016 Tailor - Portfolio extension
+# This file is distributed under the same license as the Tailor - Portfolio extension package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tailor - Portfolio extension 1.0.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/tailor-portfolio\n"
+"POT-Creation-Date: 2016-07-26 02:21:29+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/elements/class-projects.php:33
+msgid "General"
+msgstr ""
+
+#: includes/elements/class-projects.php:38
+msgid "Query"
+msgstr ""
+
+#: includes/elements/class-projects.php:43
+msgid "Colors"
+msgstr ""
+
+#: includes/elements/class-projects.php:48
+msgid "Attributes"
+msgstr ""
+
+#: includes/elements/class-projects.php:75
+msgid "Default"
+msgstr ""
+
+#: includes/elements/class-projects.php:76
+msgid "Boxed"
+msgstr ""
+
+#: includes/elements/class-projects.php:83
+msgid "List"
+msgstr ""
+
+#: includes/elements/class-projects.php:84
+msgid "Grid"
+msgstr ""
+
+#: includes/elements/class-projects.php:85
+msgid "Carousel"
+msgstr ""
+
+#: includes/elements/class-projects.php:166
+msgid "Author"
+msgstr ""
+
+#: includes/elements/class-projects.php:167
+#: includes/elements/class-projects.php:223 tailor-portfolio.php:232
+msgid "Portfolio"
+msgstr ""
+
+#: includes/elements/class-projects.php:168
+#: includes/portfolio/class-post-type.php:233
+msgid "Date"
+msgstr ""
+
+#: includes/elements/class-projects.php:169
+msgid "Excerpt"
+msgstr ""
+
+#: includes/elements/class-projects.php:170
+msgid "Featured image"
+msgstr ""
+
+#: includes/elements/class-projects.php:234
+msgid "Skill"
+msgstr ""
+
+#: includes/helpers.php:88
+msgid "Projects Page"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:47
+#: includes/portfolio/class-post-type.php:279
+msgctxt "slug"
+msgid "project"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:67
+msgctxt "project general name"
+msgid "Projects"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:68
+msgctxt "project singular name"
+msgid "Project"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:69
+msgid "All Projects"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:70
+msgctxt "project"
+msgid "Add New"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:71
+#: includes/portfolio/class-post-type.php:73
+msgid "Add New Project"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:72
+msgid "Edit Project"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:74
+msgid "View Project"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:75
+msgid "Search Projects"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:76
+msgid "No projects found"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:77
+msgid "No projects found in trash"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:79
+msgid "This is where you can add new projects to your portfolio."
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:126
+#: includes/portfolio/class-post-type.php:291
+msgctxt "slug"
+msgid "portfolio"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:145
+#: includes/portfolio/class-post-type.php:303
+msgctxt "slug"
+msgid "skill"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:169
+msgid "Search %s"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:170
+msgid "All %s"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:171
+msgid "Parent %s"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:172
+msgid "Parent %s:"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:173
+msgid "Edit %s"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:174
+msgid "Update %s"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:175
+msgid "Add New %s"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:176
+msgid "New %s Name"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:177
+msgid "Separate %s with commas"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:178
+msgid "Chose from the most recently used %s"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:227
+msgid "Title"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:228
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:265
+msgid "Project base"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:266
+msgid "Portfolio base"
+msgstr ""
+
+#: includes/portfolio/class-post-type.php:267
+msgid "Skill base"
+msgstr ""
+
+#: tailor-portfolio.php:230
+msgid "Projects"
+msgstr ""
+
+#: tailor-portfolio.php:231
+msgid "Your site's projects."
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Tailor - Portfolio extension"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.gettailor.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Adds portfolio functionality to the Tailor plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Andrew Worsfold"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wwww.andrewworsfold.com"
+msgstr ""
