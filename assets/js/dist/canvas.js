@@ -1,10 +1,10 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 
-( function( Tailor, Api, $ ) {
+( function( ElementAPI, $ ) {
 
     'use strict';
 
-	Api.Element.onRender( 'tailor_projects', function( atts, model ) {
+	ElementAPI.onRender( 'tailor_projects', function( atts, model ) {
 		var $el = this.$el;
 		var options;
 
@@ -23,11 +23,7 @@
 		else if ( 'grid' == atts.layout && atts.masonry ) {
 			$el.tailorMasonry();
 		}
-
-		Api.Setting( '_tailor_element_spacing', function( to, from ) {
-			this.triggerAll( 'element:parent:change', this );
-		} );
     } );
 
-} ) ( window.Tailor, window.Tailor.Api, jQuery );
+} ) ( window.Tailor.Api.Element );
 },{}]},{},[1]);

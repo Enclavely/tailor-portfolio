@@ -1,7 +1,7 @@
 === Tailor Page Builder: Portfolio extension ===
 Tags: page, layout, builder, frontend, content, projects, portfolio, creative, page builder, drag and drop builder, home page builder, landing page builder, layout builder, frontend builder, frontend editor, responsive, visual composer, beaver builder
 Requires at least: 4.3
-Tested up to: 4.5.3
+Tested up to: 4.6
 Stable tag: 1.0.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl.html
@@ -62,12 +62,15 @@ Yes, however, users should be directed to the WordPress plugin repository to ins
 
 == Changelog ==
 
+= 1.1.0 =
+* Updated: Compatibility with new and improved Tailor JS API.
+
 = 1.0.2 =
-* Added: language localization file.
-* Changed: custom icon for Projects element.
+* Added: Language localization file.
+* Changed: Custom icon for Projects element.
 
 = 1.0.1 =
-* Changed: text domain function with a simple string.
+* Changed: Text domain function with a simple string.
 
 = 1.0.0 =
 * Initial release.

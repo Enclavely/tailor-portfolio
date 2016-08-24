@@ -1,9 +1,9 @@
 
-( function( Tailor, Api, $ ) {
+( function( ElementAPI, $ ) {
 
     'use strict';
 
-	Api.Element.onRender( 'tailor_projects', function( atts, model ) {
+	ElementAPI.onRender( 'tailor_projects', function( atts, model ) {
 		var $el = this.$el;
 		var options;
 
@@ -22,10 +22,6 @@
 		else if ( 'grid' == atts.layout && atts.masonry ) {
 			$el.tailorMasonry();
 		}
-
-		Api.Setting( '_tailor_element_spacing', function( to, from ) {
-			this.triggerAll( 'element:parent:change', this );
-		} );
     } );
 
-} ) ( window.Tailor, window.Tailor.Api, jQuery );
+} ) ( window.Tailor.Api.Element );
