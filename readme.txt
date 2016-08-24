@@ -1,4 +1,4 @@
-=== Tailor Page Builder: Portfolio extension ===
+=== Tailor Page Builder: Portfolio Extension ===
 Tags: page, layout, builder, frontend, content, projects, portfolio, creative, page builder, drag and drop builder, home page builder, landing page builder, layout builder, frontend builder, frontend editor, responsive, visual composer, beaver builder
 Requires at least: 4.3
 Tested up to: 4.6
