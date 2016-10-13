@@ -2,7 +2,7 @@
 Tags: page, layout, builder, frontend, content, projects, portfolio, creative, page builder, drag and drop builder, home page builder, landing page builder, layout builder, frontend builder, frontend editor, responsive, visual composer, beaver builder
 Requires at least: 4.3
 Tested up to: 4.6
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl.html
 Contributors: andrew.worsfold
@@ -61,6 +61,9 @@ Yes! Tailor (and this extension) works out-of-the-box with nearly every WordPres
 Yes, however, users should be directed to the WordPress plugin repository to install the latest version of the plugin/extension.  Consider using a tool like [TGM Plugin Activation](http://tgmpluginactivation.com/) to guide users through the installation process.
 
 == Changelog ==
+
+= 1.1.1 =
+* Added - Filter to modify the rendered HTML of the Projects element.
 
 = 1.1.0 =
 * Updated: Compatibility with new and improved Tailor JS API.  Please ensure you upgrade to Tailor 1.5.0 or later.
