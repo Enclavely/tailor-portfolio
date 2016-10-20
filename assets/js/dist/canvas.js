@@ -23,6 +23,15 @@
 		else if ( 'grid' == atts.layout && atts.masonry ) {
 			$el.tailorMasonry();
 		}
+
+		if ( this.el.classList.contains( 'is-lightbox-gallery' ) ) {
+			$el.tailorLightbox( {
+				delegate : '.entry__thumbnail > a',
+				disableOn : function() {
+					return $el.hasClass( 'is-selected' );
+				}
+			} );
+		}
     } );
 
 } ) ( window.Tailor.Api.Element );

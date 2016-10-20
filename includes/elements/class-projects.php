@@ -62,6 +62,7 @@ if ( class_exists( 'Tailor_Element' ) && ! class_exists( 'Tailor_Projects_Elemen
 			    'dots',
 			    'fade',
 			    'meta',
+			    'image_link',
 			    'image_size',
 			    'aspect_ratio',
 			    'stretch',
@@ -70,6 +71,9 @@ if ( class_exists( 'Tailor_Element' ) && ! class_exists( 'Tailor_Projects_Elemen
 		    );
 		    $general_control_arguments = array(
 			    'style'                 =>  array(
+				    'setting'               =>  array(
+					    'default'               =>  'default',
+				    ),
 				    'control'               =>  array(
 					    'choices'               =>  array(
 						    'default'               =>  __( 'Default', 'tailor-portfolio' ),
@@ -78,6 +82,9 @@ if ( class_exists( 'Tailor_Element' ) && ! class_exists( 'Tailor_Projects_Elemen
 				    ),
 			    ),
 			    'layout'                =>  array(
+				    'setting'               =>  array(
+					    'default'               =>  'list',
+				    ),
 				    'control'               =>  array(
 					    'choices'               =>  array(
 						    'list'                  =>  __( 'List', 'tailor-portfolio' ),
@@ -171,7 +178,15 @@ if ( class_exists( 'Tailor_Element' ) && ! class_exists( 'Tailor_Projects_Elemen
 					    ),
 				    ),
 			    ),
+			    'image_link'            =>  array(
+				    'setting'               =>  array(
+					    'default'               =>  'none',
+				    ),
+			    ),
 			    'image_size'            =>  array(
+				    'setting'               =>  array(
+					    'default'               =>  'large',
+				    ),
 				    'control'               =>  array(
 					    'dependencies'          =>  array(
 						    'meta'                  =>  array(
@@ -199,6 +214,21 @@ if ( class_exists( 'Tailor_Element' ) && ! class_exists( 'Tailor_Projects_Elemen
 							    'value'                 =>  'thumbnail',
 						    ),
 					    ),
+				    ),
+			    ),
+			    'posts_per_page'        =>  array(
+				    'setting'               =>  array(
+					    'default'               =>  '6',
+				    ),
+			    ),
+			    'order_by'              =>  array(
+				    'setting'               =>  array(
+					    'default'               =>  'date',
+				    ),
+			    ),
+			    'order'                 =>  array(
+				    'setting'               =>  array(
+					    'default'               =>  'DESC',
 				    ),
 			    ),
 			    'pagination'            =>  array(
@@ -239,8 +269,6 @@ if ( class_exists( 'Tailor_Element' ) && ! class_exists( 'Tailor_Projects_Elemen
 		    ) );
 
 		    $query_control_types = array(
-			    //'portfolio',
-			    //'tags',
 			    'order_by',
 			    'order',
 			    'offset',

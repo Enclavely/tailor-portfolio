@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the Tailor - Portfolio extension package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Tailor - Portfolio extension 1.1.1\n"
+"Project-Id-Version: Tailor - Portfolio extension 1.2.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/tailor-portfolio\n"
-"POT-Creation-Date: 2016-10-13 11:05:08+00:00\n"
+"POT-Creation-Date: 2016-10-20 08:11:13+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -28,49 +28,49 @@ msgstr ""
 msgid "Attributes"
 msgstr ""
 
-#: includes/elements/class-projects.php:75
+#: includes/elements/class-projects.php:79
 msgid "Default"
 msgstr ""
 
-#: includes/elements/class-projects.php:76
+#: includes/elements/class-projects.php:80
 msgid "Boxed"
 msgstr ""
 
-#: includes/elements/class-projects.php:83
+#: includes/elements/class-projects.php:90
 msgid "List"
 msgstr ""
 
-#: includes/elements/class-projects.php:84
+#: includes/elements/class-projects.php:91
 msgid "Grid"
 msgstr ""
 
-#: includes/elements/class-projects.php:85
+#: includes/elements/class-projects.php:92
 msgid "Carousel"
 msgstr ""
 
-#: includes/elements/class-projects.php:166
+#: includes/elements/class-projects.php:173
 msgid "Author"
 msgstr ""
 
-#: includes/elements/class-projects.php:167
-#: includes/elements/class-projects.php:223 tailor-portfolio.php:232
+#: includes/elements/class-projects.php:174
+#: includes/elements/class-projects.php:253 tailor-portfolio.php:248
 msgid "Portfolio"
 msgstr ""
 
-#: includes/elements/class-projects.php:168
+#: includes/elements/class-projects.php:175
 #: includes/portfolio/class-post-type.php:233
 msgid "Date"
 msgstr ""
 
-#: includes/elements/class-projects.php:169
+#: includes/elements/class-projects.php:176
 msgid "Excerpt"
 msgstr ""
 
-#: includes/elements/class-projects.php:170
+#: includes/elements/class-projects.php:177
 msgid "Featured image"
 msgstr ""
 
-#: includes/elements/class-projects.php:234
+#: includes/elements/class-projects.php:264
 msgid "Skill"
 msgstr ""
 
@@ -204,11 +204,19 @@ msgstr ""
 msgid "Skill base"
 msgstr ""
 
-#: tailor-portfolio.php:230
+#: includes/shortcodes/shortcode-projects.php:126
+msgid "Please configure this element as there is currently nothing to display"
+msgstr ""
+
+#: tailor-portfolio.php:147
+msgid "Please ensure that Tailor 1.7.0 (or newer) is active to use the Portfolio extension."
+msgstr ""
+
+#: tailor-portfolio.php:246
 msgid "Projects"
 msgstr ""
 
-#: tailor-portfolio.php:231
+#: tailor-portfolio.php:247
 msgid "Your site's projects."
 msgstr ""
 #. Plugin Name of the plugin/theme

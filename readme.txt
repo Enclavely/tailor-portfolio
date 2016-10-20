@@ -2,16 +2,18 @@
 Tags: page, layout, builder, frontend, content, projects, portfolio, creative, page builder, drag and drop builder, home page builder, landing page builder, layout builder, frontend builder, frontend editor, responsive, visual composer, beaver builder
 Requires at least: 4.3
 Tested up to: 4.6.2
-Stable tag: 1.1.1
+Stable tag: 1.2.0
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl.html
 Contributors: andrew.worsfold
 
-Show off your creative side with this powerful new extension for the free Tailor frontend page builder!
+Show off your creative side with this powerful extension for the free Tailor frontend page builder!
 
 == Description ==
 
-This extension provides portfolio functionality to the [Tailor](https://wordpress.org/plugins/tailor) frontend page builder.  You can now manage your projects as a separate post type and present them as part of your custom layouts using the powerful new Projects element.
+This extension adds portfolio functionality to the [Tailor](https://wordpress.org/plugins/tailor) frontend page builder.  You can now manage your projects as a separate post type and present them as part of your custom layouts using the powerful new Projects element.
+
+> Tailor version 1.7.0 (or newer) must be active to use this extension
 
 To get started with Tailor, refer to our [documentation](https://tailor.zendesk.com/hc/en-us/categories/202586427-Getting-started).
 
@@ -61,6 +63,13 @@ Yes! Tailor (and this extension) works out-of-the-box with nearly every WordPres
 Yes, however, users should be directed to the WordPress plugin repository to install the latest version of the plugin/extension.  Consider using a tool like [TGM Plugin Activation](http://tgmpluginactivation.com/) to guide users through the installation process.
 
 == Changelog ==
+
+= 1.2.0 =
+* Added - Filter for HTML attributes of default elements.
+* Added - Filter for the rendered HTML of default elements.
+* Added - Image link option to the Projects element to align with the Posts element.
+
+Note: This version requires Tailor version 1.7.0 (or newer).
 
 = 1.1.1 =
 * Added - Filter to modify the rendered HTML of the Projects element.
