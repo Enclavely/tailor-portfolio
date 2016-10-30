@@ -1,8 +1,8 @@
 === Tailor Page Builder: Portfolio Extension ===
 Tags: page, layout, builder, frontend, content, projects, portfolio, creative, page builder, drag and drop builder, home page builder, landing page builder, layout builder, frontend builder, frontend editor, responsive, visual composer, beaver builder
 Requires at least: 4.3
-Tested up to: 4.6.2
-Stable tag: 1.2.0
+Tested up to: 4.7
+Stable tag: 1.2.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl.html
 Contributors: andrew.worsfold
@@ -64,12 +64,15 @@ Yes, however, users should be directed to the WordPress plugin repository to ins
 
 == Changelog ==
 
+= 1.2.1 =
+* Added - Responsive settings for the Projects element.
+
+Note: This version requires Tailor version 1.7.2 (or newer).
+
 = 1.2.0 =
 * Added - Filter for HTML attributes of default elements.
 * Added - Filter for the rendered HTML of default elements.
 * Added - Image link option to the Projects element to align with the Posts element.
-
-Note: This version requires Tailor version 1.7.0 (or newer).
 
 = 1.1.1 =
 * Added - Filter to modify the rendered HTML of the Projects element.
