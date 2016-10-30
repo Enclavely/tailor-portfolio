@@ -13,9 +13,9 @@ Show off your creative side with this powerful extension for the free Tailor fro
 
 This extension adds portfolio functionality to the [Tailor](https://wordpress.org/plugins/tailor) frontend page builder.  You can now manage your projects as a separate post type and present them as part of your custom layouts using the powerful new Projects element.
 
-> Tailor version 1.7.0 (or newer) must be active to use this extension
+> Tailor version 1.7.2 (or newer) must be active to use this extension
 
-To get started with Tailor, refer to our [documentation](https://tailor.zendesk.com/hc/en-us/categories/202586427-Getting-started).
+To get started with Tailor, refer to our [documentation](https://support.gettailor.com/hc/en-us/categories/202586427-Getting-started).
 
 You can get in touch with questions or recommendations in a number of ways:
 
