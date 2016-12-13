@@ -1,7 +1,9 @@
 {
-"version": 3,
-"mappings": "AAKE,gCAAU;EACT,OAAO,EAAE,OAAO",
-"sources": ["scss/sidebar.scss"],
-"names": [],
-"file": "sidebar.css"
+	"version": 3,
+	"file": "sidebar.css",
+	"sources": [
+		"../scss/sidebar.scss"
+	],
+	"mappings": "AACA,AAEC,KAFI,CAEJ,kBAAkB,AAEhB,QAAQ,CAAC;EACT,OAAO,EAAE,OAAQ;CACjB",
+	"names": []
 }

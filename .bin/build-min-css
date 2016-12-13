@@ -1,0 +1,2 @@
+node-sass --output-style compressed --sourceMap assets/css/frontend.min.css.map assets/scss/frontend.scss assets/css/frontend.min.css
+node-sass --output-style compressed --sourceMap assets/css/sidebar.min.css.map assets/scss/sidebar.scss assets/css/sidebar.min.css

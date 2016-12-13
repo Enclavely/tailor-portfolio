@@ -1,0 +1,2 @@
+node-sass --output-style expanded --sourceMap assets/css/frontend.css.map assets/scss/frontend.scss assets/css/frontend.css
+node-sass --output-style expanded --sourceMap assets/css/sidebar.css.map assets/scss/sidebar.scss assets/css/sidebar.css

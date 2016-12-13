@@ -1,0 +1,2 @@
+browserify assets/js/src/canvas.js > assets/js/dist/canvas.js
+browserify assets/js/src/frontend.js > assets/js/dist/frontend.js

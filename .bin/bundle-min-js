@@ -1,0 +1,2 @@
+browserify assets/js/src/canvas.js | uglifyjs > assets/js/dist/canvas.min.js
+browserify assets/js/src/frontend.js | uglifyjs > assets/js/dist/frontend.min.js
